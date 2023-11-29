@@ -3,7 +3,6 @@
     display: grid;
     grid-template-columns: auto auto auto auto;
     justify-content: space-around;
-    background-color: yellowgreen
 }
 .nav > .nav-item > a {
     padding: 5px; 
