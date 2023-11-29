@@ -1,0 +1,131 @@
+        .title {
+            text-align: center;
+            letter-spacing: 30px;
+        }
+
+        .main_table {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        table {
+            width: 75%;
+        }
+
+        .table_01 {
+            text-align: center;
+        }
+
+        .table_02 {
+            text-align: center;
+        }
+
+        .table_03 {
+            text-align: center;
+        }
+
+        .table_04 {
+            text-align: center;
+        }
+
+        .table_05 {
+            text-align: center;
+        }
+
+        h1.h1_inform {
+            font-size: 1.5em;
+        }
+
+        .h1_02 {
+            font-size: 1.5em;
+        }
+
+        .h1_03 {
+            font-size: 1.5em;
+        }
+
+        .h1_04 {
+            font-size: 1.5em;
+        }
+
+        .h1_05 {
+            font-size: 1.5em;
+        }
+
+        .name_space {
+            padding-left: 200px;
+        }
+
+        .ad_space {
+            padding-left: 100px;
+        }
+
+        .br_space {
+            padding-left: 100px;
+        }
+
+        tr.sc_02 {
+            padding-bottom: 0px;
+        }
+
+        .sign_01 {
+            text-align: center;
+        }
+
+        .sign_02 {
+            text-align: center;
+            letter-spacing: 30px;
+        }
+
+        .sign_03 {
+            text-align: right;
+        }
+
+        .gray_name {
+            background-color: lightgray;
+        }
+
+        .gray_birth {
+            background-color: lightgray;
+
+        }
+
+        .gray_callnum {
+            background-color: lightgray;
+
+        }
+
+        .gray_email {
+            background-color: lightgray;
+
+        }
+
+        .gray_address {
+            background-color: lightgray;
+
+        }
+
+        .sc_01 {
+            background-color: lightgray;
+        }
+
+        .cr_01 {
+            background-color: lightgray;
+        }
+
+        .oa_01 {
+            background-color: lightgray;
+        }
+
+        .oa_02 {
+            background-color: lightgray;
+        }
+
+        .oa_03 {
+            background-color: lightgray;
+        }
+
+        .edu_01 {
+            background-color: lightgray;
+        }
+    

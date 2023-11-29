@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>borders</title>
+    <style>
+        * {
+            margin-top: 10px;
+        }
+
+        /*div 전체 div로 지정 */
+        .dotted {
+            border-style: dotted;
+            border-width: 4px;
+            border-color: blue;
+        }
+
+
+        div.solid {
+            /* tag.class name으로 지정 */
+            border-style: solid;
+            border-top-width: 5px;
+            border-right-width: 10px;
+            border-bottom-width: 15px;
+            border-left-width: 20px;
+            border-bottom-color: blueviolet;
+            border-left-color: chocolate;
+        }
+
+        .double {
+            /*.double  class name으로 지정 */
+            /* border-style: double; */
+            /* short hand*/
+            /* border-width: 5px 10px 15px 20px; top right bottom left */
+            /* border-width: 5px 15px; top-bottom , right-left */
+            border: 3px double red;
+            /* border-radius: 10px; 전체 라운드 적용*/
+            /* border-radius: 3px 6px 9px 12px; short hand 적용 top-left 시작 시계방향 */
+            border-radius: 5px 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>border style</h1>
+        <div class="dotted">a dotted border.</div>
+        <div class="solid">a solid border.</div>
+        <div class="double">a double border.</div>
+        <hr>
+    </main>
+    <footer>
+        <form action="../main.html" method="get">
+            <button style="width: 300px; height: 100px;">return to main</button>
+        </form>
+    </footer>
+</body>
+
+</html>
