@@ -1,5 +1,5 @@
 .nav {
-    border: 6px outset pink;
+    border: 8px outset pink;
     margin: 2px;
     padding: 5px;
     list-style: none;
@@ -9,7 +9,7 @@
 }
 .nav > .nav-item > a {
     border: 1px outset hotpink;
-    padding: 4px; 
+    padding: 5px; 
     text-decoration: none;
     background-color: rgb(243, 157, 171);
 }
