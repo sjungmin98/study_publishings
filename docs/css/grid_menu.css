@@ -1,14 +1,17 @@
 .nav {
+    border: 6px outset pink;
+    margin: 2px;
+    padding: 5px;
     list-style: none;
     display: grid;
     grid-template-columns: auto auto auto auto;
     justify-content: space-around;
 }
 .nav > .nav-item > a {
-    padding: 5px; 
+    padding: 6px; 
     text-decoration: none;
-    background-color: chocolate
+    background-color: rgb(243, 157, 171);
 }
 .nav > .nav-item > a:hover {
-    background-color: pink;
+    background-color: rgb(191, 227, 241)
 }
