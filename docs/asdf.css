@@ -1,0 +1,47 @@
+/* Pricing Table CSS */
+.pricing-table {
+    display: flex;
+    justify-content: center;
+    margin: 2em 0;
+}
+
+.pricing-table .plan {
+    text-align: center;
+    margin: 0 1em;
+    border: 1px solid #e1e1e1;
+    box-shadow: 2px 2px 10px 0 rgba(0,0,0,.1);
+    transition: .3s ease-in-out;
+}
+
+.plan:hover {
+    box-shadow: 3px 3px 20px 0 rgba(0,0,0,.15);
+    transform: scale(1.05);
+}
+
+.plan .header {
+    background-color: #5D3F6A;
+    color: white;
+    padding: 20px;
+    font-size: 1.25em;
+}
+
+.plan .price {
+    background-color: #F8F8F8;
+    color: #333;
+    padding: 20px;
+    font-size: 1.25em;
+}
+
+.plan .features {
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    font-size: 1em;
+}
+
+.plan .purchase {
+    background-color: #2C3E50;
+    color: white;
+    padding: 20px;
+    font-size: 1em;
+}
